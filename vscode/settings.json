@@ -1,20 +1,26 @@
 {
+  // Editor
   "editor.fontSize": 17,
   "editor.lineHeight": 25,
   "editor.letterSpacing": 0.5,
   "editor.cursorBlinking": "solid",
   "editor.renderWhitespace": "all",
   "editor.wordWrap": "on",
-  // "editor.codeActionsOnSave": {
-  //   "source.organizeImports": true
-  // },
-  //"editor.formatOnSave": true,
-  "files.exclude": {
-    "**/node_modules/**": true
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
   },
+  "editor.formatOnSave": true,
+  // JavaScript
   "javascript.validate.enable": false,
+  // Prettier
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.ignorePath": ".gitignore",
+  // Standard
   "standard.autoFixOnSave": true,
+  // Telemetry
   "telemetry.enableTelemetry": false,
+  // Workbench
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.tabSizing": "fit",
   "workbench.colorCustomizations": {
