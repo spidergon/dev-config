@@ -1,0 +1,23 @@
+{
+  "editor.fontSize": 17,
+  "editor.lineHeight": 25,
+  "editor.letterSpacing": 0.5,
+  "editor.cursorBlinking": "solid",
+  "editor.renderWhitespace": "all",
+  "editor.wordWrap": "on",
+  // "editor.codeActionsOnSave": {
+  //   "source.organizeImports": true
+  // },
+  //"editor.formatOnSave": true,
+  "files.exclude": {
+    "**/node_modules/**": true
+  },
+  "javascript.validate.enable": false,
+  "standard.autoFixOnSave": true,
+  "telemetry.enableTelemetry": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.tabSizing": "fit",
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground": "#7e828a"
+  }
+}
