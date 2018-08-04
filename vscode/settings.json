@@ -6,15 +6,20 @@
   "editor.cursorBlinking": "solid",
   "editor.renderWhitespace": "all",
   "editor.wordWrap": "on",
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": true
-  },
+  "editor.rulers": [
+    80
+  ],
   "editor.formatOnSave": true,
-  // ESLint
-  "eslint.alwaysShowStatus": true,
-  "eslint.autoFixOnSave": true,
   // JavaScript
   "javascript.validate.enable": false,
+  // Prettier
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  // Standard
+  "standard.autoFixOnSave": true,
+  "standard.options": {
+    "parser": "babel-eslint",
+  },
   // Telemetry
   "telemetry.enableTelemetry": false,
   // Workbench
