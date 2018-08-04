@@ -10,14 +10,11 @@
     "source.organizeImports": true
   },
   "editor.formatOnSave": true,
+  // ESLint
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
   // JavaScript
   "javascript.validate.enable": false,
-  // Prettier
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
-  "prettier.ignorePath": ".gitignore",
-  // Standard
-  "standard.autoFixOnSave": true,
   // Telemetry
   "telemetry.enableTelemetry": false,
   // Workbench
