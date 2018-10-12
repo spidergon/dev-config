@@ -20,12 +20,12 @@
   },
   // Telemetry
   "telemetry.enableTelemetry": false,
+  // Terminal
+  "terminal.integrated.confirmOnExit": true,
   // Workbench
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.tabSizing": "fit",
   "workbench.colorCustomizations": {
     "editorIndentGuide.activeBackground": "#7e828a"
-  },
-  // Terminal
-  "terminal.integrated.confirmOnExit": true
+  }
 }
