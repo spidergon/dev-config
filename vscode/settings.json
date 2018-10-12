@@ -4,11 +4,9 @@
   "editor.lineHeight": 25,
   "editor.letterSpacing": 0.5,
   "editor.cursorBlinking": "solid",
-  "editor.renderWhitespace": "all",
+  "editor.renderWhitespace": "none",
   "editor.wordWrap": "on",
-  "editor.rulers": [
-    80
-  ],
+  "editor.rulers": [80],
   "editor.formatOnSave": true,
   // JavaScript
   "javascript.validate.enable": false,
@@ -18,7 +16,7 @@
   // Standard
   "standard.autoFixOnSave": true,
   "standard.options": {
-    "parser": "babel-eslint",
+    "parser": "babel-eslint"
   },
   // Telemetry
   "telemetry.enableTelemetry": false,
@@ -27,5 +25,7 @@
   "workbench.editor.tabSizing": "fit",
   "workbench.colorCustomizations": {
     "editorIndentGuide.activeBackground": "#7e828a"
-  }
+  },
+  // Terminal
+  "terminal.integrated.confirmOnExit": true
 }
