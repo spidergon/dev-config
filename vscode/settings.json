@@ -22,6 +22,8 @@
   "telemetry.enableTelemetry": false,
   // Terminal
   "terminal.integrated.confirmOnExit": true,
+  // Window
+  "window.titleBarStyle": "custom",
   // Workbench
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.tabSizing": "fit",
