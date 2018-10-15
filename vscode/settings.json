@@ -1,14 +1,17 @@
 {
   // Editor
+  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 17,
   "editor.lineHeight": 25,
   "editor.letterSpacing": 0.5,
   "editor.cursorBlinking": "solid",
-  "editor.renderWhitespace": "none",
+  "editor.renderWhitespace": "all",
   "editor.wordWrap": "on",
   "editor.rulers": [80],
   "editor.formatOnSave": true,
   "editor.snippetSuggestions": "top",
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
   // Emmet
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -22,24 +25,24 @@
     "**/.DS_Store": true,
     "**/.next": true
   },
+  "files.trimTrailingWhitespace": true,
   // JavaScript
   "javascript.validate.enable": false,
   // Prettier
+  "prettier.eslintIntegration": true,
   "prettier.semi": false,
   "prettier.singleQuote": true,
   // Standard
   "standard.autoFixOnSave": true,
   "standard.options": {
-    "plugins": ["html"],
     "parser": "babel-eslint"
   },
-  // Telemetry
-  // "telemetry.enableTelemetry": false,
   // Terminal
   "terminal.integrated.confirmOnExit": true,
   // Window
   "window.titleBarStyle": "custom",
   // Workbench
+  "workbench.colorTheme": "Cobalt2",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.tabSizing": "fit",
   "workbench.editor.tabCloseButton": "off",
