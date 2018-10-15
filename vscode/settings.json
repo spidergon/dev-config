@@ -8,6 +8,20 @@
   "editor.wordWrap": "on",
   "editor.rulers": [80],
   "editor.formatOnSave": true,
+  "editor.snippetSuggestions": "top",
+  // Emmet
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // Files
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.next": true
+  },
   // JavaScript
   "javascript.validate.enable": false,
   // Prettier
@@ -16,10 +30,11 @@
   // Standard
   "standard.autoFixOnSave": true,
   "standard.options": {
+    "plugins": ["html"],
     "parser": "babel-eslint"
   },
   // Telemetry
-  "telemetry.enableTelemetry": false,
+  // "telemetry.enableTelemetry": false,
   // Terminal
   "terminal.integrated.confirmOnExit": true,
   // Window
@@ -27,6 +42,7 @@
   // Workbench
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.tabSizing": "fit",
+  "workbench.editor.tabCloseButton": "off",
   "workbench.colorCustomizations": {
     "editorIndentGuide.activeBackground": "#7e828a"
   }
