@@ -40,9 +40,12 @@
   // Terminal
   "terminal.integrated.confirmOnExit": true,
   // Window
+  "window.menuBarVisibility": "toggle",
   "window.titleBarStyle": "custom",
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
   // Workbench
   "workbench.colorTheme": "Cobalt2",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.tabSizing": "fit",
   "workbench.editor.tabCloseButton": "off",
