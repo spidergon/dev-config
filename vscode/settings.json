@@ -5,7 +5,7 @@
   "editor.lineHeight": 25,
   "editor.letterSpacing": 0.5,
   "editor.cursorBlinking": "solid",
-  "editor.renderWhitespace": "all",
+  "editor.renderWhitespace": "none",
   "editor.wordWrap": "on",
   "editor.rulers": [80],
   "editor.formatOnSave": true,
@@ -15,6 +15,16 @@
   // Emmet
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
+  },
+  // Emoji
+  "emojisense.languages": {
+    "markdown": true,
+    "plaintext": {
+      "markupCompletionsEnabled": false,
+      "emojiDecoratorsEnabled": false
+    },
+    "git-commit": true,
+    "Javascriptreact": true
   },
   // Files
   "files.exclude": {
