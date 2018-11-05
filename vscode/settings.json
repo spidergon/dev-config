@@ -19,11 +19,9 @@
   // Emoji
   "emojisense.languages": {
     "markdown": true,
-    "plaintext": {
-      "markupCompletionsEnabled": false,
-      "emojiDecoratorsEnabled": false
-    },
+    "plaintext": true,
     "git-commit": true,
+    "javascript": true,
     "Javascriptreact": true
   },
   // Files
@@ -47,8 +45,6 @@
   "standard.options": {
     "parser": "babel-eslint"
   },
-  // Terminal
-  "terminal.integrated.confirmOnExit": true,
   // Window
   "window.menuBarVisibility": "toggle",
   "window.titleBarStyle": "custom",
