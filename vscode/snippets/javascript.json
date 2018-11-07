@@ -1,0 +1,22 @@
+{
+  "Console Log": {
+    "prefix": "cl",
+    "body": "console.log($1)",
+    "description": "Log output to console"
+  },
+  "Module Import": {
+    "prefix": "imp",
+    "body": "import $1 from '$2'",
+    "description": "Module import"
+  },
+  "Jest Globals - Describe": {
+    "prefix": "desc",
+    "body": "describe('$1', ($2) => {$3})",
+    "description": "Jest Global \"describe\" method"
+  },
+  "Jest Describe method - It": {
+    "prefix": "it",
+    "body": "it('$1', ($2) => {$3})",
+    "description": "Jest Global describe \"it\" method"
+  }
+}
