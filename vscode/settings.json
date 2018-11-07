@@ -7,7 +7,7 @@
   "editor.cursorBlinking": "solid",
   "editor.renderWhitespace": "none",
   "editor.wordWrap": "on",
-  "editor.rulers": [80],
+  "editor.rulers": [80, 120],
   "editor.formatOnSave": true,
   "editor.snippetSuggestions": "top",
   "editor.minimap.enabled": false,
@@ -40,10 +40,12 @@
   "prettier.eslintIntegration": true,
   "prettier.semi": false,
   "prettier.singleQuote": true,
+  "prettier.printWidth": 120,
   // Standard
   "standard.autoFixOnSave": true,
   "standard.options": {
-    "parser": "babel-eslint"
+    "parser": "babel-eslint",
+    "env": ["jest"]
   },
   // Window
   "window.menuBarVisibility": "toggle",
