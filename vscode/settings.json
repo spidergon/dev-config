@@ -44,7 +44,7 @@
   "standard.autoFixOnSave": true,
   "standard.options": {
     "parser": "babel-eslint",
-    "env": ["jest"]
+    "env": ["browser", "jest"]
   },
   // Terminal
   "terminal.integrated.rendererType": "dom",
