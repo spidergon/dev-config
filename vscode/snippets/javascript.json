@@ -6,17 +6,23 @@
   },
   "Module Import": {
     "prefix": "imp",
-    "body": "import $2 from '$1'",
+    "body": "import $1 from '$2'",
     "description": "Module import"
   },
+  "Arrow Function": {
+    "prefix": "fn",
+    "body": "($1) => {$2}",
+    "description": "Arrow Function"
+  },
+  // JEST
   "Jest Globals - Describe": {
     "prefix": "desc",
-    "body": "describe('$1', ($2) => {$3})",
+    "body": "describe('${1:test suite description}', () => {$2})",
     "description": "Jest Global \"describe\" method"
   },
   "Jest Describe method - It": {
     "prefix": "it",
-    "body": "it('$1', ($2) => {$3})",
+    "body": "it('${1:test description}', ($2) => {$3})",
     "description": "Jest Global describe \"it\" method"
   }
 }
