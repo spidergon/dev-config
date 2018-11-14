@@ -14,7 +14,6 @@
     "body": "($1) => {$2}",
     "description": "Arrow Function"
   },
-  // JEST
   "Jest Globals - Describe": {
     "prefix": "desc",
     "body": "describe('${1:test suite description}', () => {$2})",

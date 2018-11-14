@@ -38,16 +38,6 @@
   "javascript.validate.enable": false,
   // Prettier
   "prettier.eslintIntegration": true,
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
-  // Standard
-  "standard.autoFixOnSave": true,
-  "standard.options": {
-    "parser": "babel-eslint",
-    "env": ["browser", "jest"]
-  },
-  // Terminal
-  "terminal.integrated.rendererType": "dom",
   // Window
   "window.menuBarVisibility": "toggle",
   "window.titleBarStyle": "custom",
