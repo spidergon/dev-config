@@ -14,6 +14,11 @@
     "body": "($1) => {$2}",
     "description": "Arrow Function"
   },
+  "React Hook useState": {
+    "prefix": "ust",
+    "body": "const [${1}, set${1/(.)/${1:/upcase}/}] = useState($3)",
+    "description": "React Hook useState"
+  },
   "Jest Globals - Describe": {
     "prefix": "desc",
     "body": "describe('${1:test suite description}', () => {$2})",
