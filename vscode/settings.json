@@ -5,6 +5,7 @@
   "editor.lineHeight": 25,
   "editor.letterSpacing": 0.5,
   "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": true,
   "editor.renderWhitespace": "none",
   "editor.wordWrap": "on",
   "editor.rulers": [80, 120],
@@ -36,7 +37,11 @@
   "files.trimTrailingWhitespace": true,
   // JavaScript
   "javascript.validate.enable": false,
+  // PHP
+  "php.suggest.basic": false,
   // Prettier
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
   "prettier.eslintIntegration": true,
   // Window
   "window.menuBarVisibility": "toggle",
