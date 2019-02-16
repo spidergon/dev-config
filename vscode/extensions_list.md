@@ -19,6 +19,7 @@ Here is a list of all the extensions I use:
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+- [MDX](https://marketplace.visualstudio.com/items?itemName=silvenon.mdx)
 - [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
 - [Npm Dependency](https://marketplace.visualstudio.com/items?itemName=howardzuo.vscode-npm-dependency)
 - [PHP Extension Pack](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-pack)

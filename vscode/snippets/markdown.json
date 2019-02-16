@@ -1,0 +1,7 @@
+{
+  "Module Import": {
+    "prefix": "imp",
+    "body": "import $1 from '$2'",
+    "description": "(MDX) Module Import"
+  }
+}
