@@ -13,9 +13,7 @@
   "editor.snippetSuggestions": "top",
   "editor.minimap.enabled": false,
   "editor.tabSize": 2,
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   // Emmet
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
