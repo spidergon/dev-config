@@ -26,6 +26,9 @@
     "javascript": true,
     "Javascriptreact": true
   },
+  // ESLint
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
   // Files
   "files.exclude": {
     "**/.git": true,
@@ -41,8 +44,6 @@
   // PHP
   "php.suggest.basic": false,
   // Prettier
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
   "prettier.eslintIntegration": true,
   // Window
   "window.menuBarVisibility": "toggle",
