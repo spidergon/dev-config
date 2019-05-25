@@ -1,0 +1,8 @@
+.vagrant/
+.log
+
+backups/*
+!backups/.gitkeep
+
+www/*
+!www/.gitkeep
