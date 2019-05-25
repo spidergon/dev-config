@@ -16,7 +16,8 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   // Emmet
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
+    "django-html": "html"
   },
   // Emoji
   "emojisense.languages": {
@@ -58,5 +59,14 @@
   "workbench.colorCustomizations": {
     "editorIndentGuide.activeBackground": "#7e828a"
   },
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "gitlens.views.repositories.location": "gitlens",
+  "gitlens.views.fileHistory.location": "gitlens",
+  "gitlens.views.lineHistory.location": "gitlens",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
+  "[python]": {},
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.jediEnabled": false
 }
