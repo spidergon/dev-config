@@ -1,5 +1,5 @@
 .vagrant/
-.log
+*.log
 
 backups/*
 !backups/.gitkeep
