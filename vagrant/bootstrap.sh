@@ -42,7 +42,7 @@ echo -e "\n** Node **\n"
 sudo curl -sSo /usr/local/bin/n https://raw.githubusercontent.com/visionmedia/n/master/bin/n
 sudo chmod +x /usr/local/bin/n
 
-echo -e "\n** Wordpress **\n"
+echo -e "\n** WordPress **\n"
 
 sudo ln -sf /vagrant/tools/wp/setup.sh /usr/local/bin/wp-setup
 sudo chmod +x /usr/local/bin/wp-setup
