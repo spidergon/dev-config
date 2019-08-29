@@ -58,7 +58,6 @@
   // PHP
   "php.suggest.basic": false,
   // Prettier
-  "prettier.eslintIntegration": true,
   "prettier.semi": false,
   "prettier.singleQuote": true,
   // Python
