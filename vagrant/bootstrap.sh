@@ -64,7 +64,7 @@ sudo sed -i "s+/home/vagrant:/bin/bash+/home/vagrant:/usr/bin/fish+" /etc/passwd
 
 ln -s /vagrant
 
-sudo ln -sf /vagrant/tools/mount /usr/local/bin/mount
+cp -r /vagrant/tools/mount /usr/local/bin/mount
 sudo chmod +x /usr/local/bin/mount
 
 echo -e '\n** Done! **\n'
