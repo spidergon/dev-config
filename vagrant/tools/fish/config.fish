@@ -23,4 +23,5 @@ if status --is-interactive
   abbr -a rmv 'vagrant destroy; and rm -rf .vagrant; and rm *.log'
   abbr -a path 'printf "%s\n" $PATH'
   abbr -a yup 'ncu --upgrade; and yarn install'
+  abbr -a vbm 'sudo /sbin/mount.vboxsf -o uid=1000,gid=1000 vagrant /vagrant'
 end
