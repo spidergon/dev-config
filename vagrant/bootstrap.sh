@@ -64,7 +64,4 @@ sudo sed -i "s+/home/vagrant:/bin/bash+/home/vagrant:/usr/bin/fish+" /etc/passwd
 
 ln -s /vagrant
 
-cp -r /vagrant/tools/vboxsf_mount /usr/local/bin/vboxsf_mount
-sudo chmod +x /usr/local/bin/vboxsf_mount
-
 echo -e '\n** Done! **\n'
