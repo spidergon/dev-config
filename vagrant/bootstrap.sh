@@ -5,7 +5,7 @@ sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again p
 
 sudo add-apt-repository -y ppa:ondrej/php
 sudo add-apt-repository -y ppa:ondrej/apache2
-sudo add-apt-repository -y ppa:fish-shell/release-2
+sudo add-apt-repository -y ppa:fish-shell/release-3
 sudo apt-get update
 
 php=7.3
