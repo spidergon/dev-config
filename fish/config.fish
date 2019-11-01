@@ -23,6 +23,8 @@ if status --is-interactive
   abbr -a gac 'git add .; and git commit -am'
   abbr -a gcm 'git checkout master'
   abbr -a gpom 'git push -u origin master'
+  abbr -a nd 'netlify dev'
+  abbr -a nfc 'netlify function:create'
   abbr -a rmn 'rm -rf node_modules; and rm package-lock.json'
   abbr -a vrem 'vagrant box remove ubuntu/bionic64 --box-version'
   abbr -a vup 'vagrant box update; and vagrant destroy -f; and vagrant up'
@@ -33,4 +35,5 @@ if status --is-interactive
   abbr -a p3 python3
   abbr -a penv 'python3 -m venv env'
   abbr -a pipup 'python -m pip install --upgrade pip'
+  abbr -a yard 'yarn add -D'
 end
