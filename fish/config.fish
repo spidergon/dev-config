@@ -18,13 +18,16 @@ if status --is-interactive
   abbr -a g git
   abbr -a gt 'git status'
   abbr -a gd 'git diff'
+  abbr -a gr 'git remote'
   abbr -a gc 'git commit -am'
   abbr -a gac 'git add .; and git commit -am'
+  abbr -a gcm 'git checkout master'
+  abbr -a gpom 'git push -u origin master'
   abbr -a rmn 'rm -rf node_modules; and rm package-lock.json'
   abbr -a vrem 'vagrant box remove ubuntu/bionic64 --box-version'
   abbr -a vup 'vagrant box update; and vagrant destroy -f; and vagrant up'
   abbr -a path 'printf "%s\n" $PATH'
-  abbr -a yup 'ncu --upgrade; and yarn install'
+  abbr -a yup 'ncu --upgrade'
   abbr -a tunnel 'ngrok http -host-header=rewrite dev.local:80'
   abbr -a p python
   abbr -a p3 python3
