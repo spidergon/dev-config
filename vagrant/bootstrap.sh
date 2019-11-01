@@ -32,10 +32,10 @@ sudo a2ensite dev.conf
 sudo a2dissite 000-default.conf
 sudo systemctl restart apache2
 
-echo -e "\n** Composer **\n"
+#echo -e "\n** Composer **\n"
 
-curl -sS https://getcomposer.org/installer | php
-sudo mv composer.phar /usr/local/bin/composer
+#curl -sS https://getcomposer.org/installer | php
+#sudo mv composer.phar /usr/local/bin/composer
 
 echo -e "\n** Node **\n"
 
