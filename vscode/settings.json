@@ -21,29 +21,11 @@
     "javascript": "javascriptreact",
     "django-html": "html"
   },
-  // Emoji
-  // "emojisense.languages": {
-  //   "markdown": true,
-  //   "plaintext": true,
-  //   "git-commit": true,
-  //   "javascript": true,
-  //   "Javascriptreact": true
-  // },
   // ESLint
   "eslint.alwaysShowStatus": true,
   "eslint.autoFixOnSave": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    {
-      "language": "svelte",
-      "autoFix": true
-    }
-  ],
+  "eslint.validate": ["javascript", "javascriptreact"],
   // Files
-  // "files.associations": {
-  //   "*.svelte": "html"
-  // },
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -51,6 +33,11 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/.next": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true
   },
   "files.trimTrailingWhitespace": true,
   // JavaScript
@@ -60,8 +47,6 @@
   // Prettier
   "prettier.semi": false,
   "prettier.singleQuote": true,
-  // Python
-  // "python.jediEnabled": false,
   // vsintellicode
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
