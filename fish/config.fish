@@ -1,9 +1,9 @@
 set -gx fish_greeting ""
-set -gx PATH $PATH ~/.yarn/bin
+#set -gx PATH $PATH ~/.yarn/bin
 
 # Metro virtual environment
-#set -g theme_display_ruby no        # Disables displaying the current ruby version
-#set -g theme_display_virtualenv no  # Disables displaying the current virtualenv name
+set -g theme_display_ruby no        # Disables displaying the current ruby version
+set -g theme_display_virtualenv no  # Disables displaying the current virtualenv name
 
 # Bootstrap fisher
 if not functions -q fisher
@@ -25,15 +25,12 @@ if status --is-interactive
   abbr -a gpom 'git push -u origin master'
   abbr -a nd 'netlify dev'
   abbr -a nfc 'netlify function:create'
+  abbr -a ntlp 'ntl deploy --prod'
   abbr -a rmn 'rm -rf node_modules; and rm package-lock.json'
   abbr -a vrem 'vagrant box remove ubuntu/bionic64 --box-version'
   abbr -a vup 'vagrant box update; and vagrant destroy -f; and vagrant up'
   abbr -a path 'printf "%s\n" $PATH'
   abbr -a yup 'ncu --upgrade'
   abbr -a tunnel 'ngrok http -host-header=rewrite dev.local:80'
-  abbr -a p python
-  abbr -a p3 python3
-  abbr -a penv 'python3 -m venv env'
-  abbr -a pipup 'python -m pip install --upgrade pip'
   abbr -a yard 'yarn add -D'
 end
