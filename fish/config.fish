@@ -33,4 +33,5 @@ if status --is-interactive
   abbr -a yup 'ncu --upgrade'
   abbr -a tunnel 'ngrok http -host-header=rewrite dev.local:80'
   abbr -a yard 'yarn add -D'
+  abbr -a conf 'nano ~/.config/fish/config.fish'
 end
