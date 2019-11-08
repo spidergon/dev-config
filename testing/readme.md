@@ -19,3 +19,15 @@
 
 - [Services dédiés](https://github.com/marketplace/category/code-review) à l'intégration du suivi de couverture de tests avec la gestion des sources.
 - [Code Coverage Done Right](https://codecov.io)
+
+## Setup
+
+### Installation des outils
+
+```bash
+yarn add -D chai chai-enzyme@beta chai-jest-diff chai-jest-snapshot dirty-chai enzyme enzyme-adapter-react-16 enzyme-to-json react-test-renderer sinon sinon-chai
+```
+
+### Avec Gatsby
+
+- [Gatsby Testing](https://www.gatsbyjs.org/docs/testing/)
