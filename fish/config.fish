@@ -36,4 +36,5 @@ if status --is-interactive
   abbr -a yard 'yarn add -D'
   abbr -a yb 'yarn build'
   abbr -a ys 'yarn start'
+  abbr -a yt 'yarn test'
 end
