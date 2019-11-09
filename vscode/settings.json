@@ -1,6 +1,7 @@
 {
   // Editor
-  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Fira Code Retina",
+  "editor.fontLigatures": true,
   "editor.fontSize": 17,
   "editor.lineHeight": 25,
   "editor.letterSpacing": 0.5,
