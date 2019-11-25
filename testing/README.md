@@ -25,6 +25,10 @@
 ### Installation des outils
 
 ```bash
+yarn add -D @babel/core jest babel-jest babel-preset-gatsby @testing-library/react-hooks identity-obj-proxy
+```
+
+```bash
 yarn add -D chai chai-enzyme@beta chai-jest-diff chai-jest-snapshot dirty-chai enzyme enzyme-adapter-react-16 enzyme-to-json react-test-renderer sinon sinon-chai
 ```
 
