@@ -45,9 +45,6 @@
   "javascript.validate.enable": false,
   // PHP
   "php.suggest.basic": false,
-  // Prettier
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
   // vsintellicode
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -63,5 +60,6 @@
   "workbench.editor.tabCloseButton": "off",
   "workbench.colorCustomizations": {
     "editorIndentGuide.activeBackground": "#7e828a"
-  }
+  },
+  "workbench.startupEditor": "newUntitledFile"
 }
