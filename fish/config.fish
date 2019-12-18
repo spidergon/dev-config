@@ -37,4 +37,5 @@ if status --is-interactive
   abbr -a yb 'yarn build'
   abbr -a ys 'yarn start'
   abbr -a yt 'yarn test'
+  abbr -a yup 'yarn upgrade-interactive'
 end

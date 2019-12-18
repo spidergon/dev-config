@@ -9,37 +9,23 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.renderWhitespace": "none",
   "editor.wordWrap": "on",
-  "editor.rulers": [80, 120],
+  "editor.rulers": [ 100 ],
   "editor.formatOnSave": true,
   "editor.snippetSuggestions": "top",
   "editor.minimap.enabled": false,
-  "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
   "explorer.confirmDragAndDrop": false,
   "breadcrumbs.enabled": false,
   // Emmet
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
-    "django-html": "html"
   },
   // ESLint
   "eslint.alwaysShowStatus": true,
-  "eslint.autoFixOnSave": true,
-  "eslint.validate": ["javascript", "javascriptreact"],
   // Files
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/.next": true
-  },
-  "files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
-    "**/node_modules/**": true
-  },
   "files.trimTrailingWhitespace": true,
   // JavaScript
   "javascript.validate.enable": false,
@@ -61,5 +47,5 @@
   "workbench.colorCustomizations": {
     "editorIndentGuide.activeBackground": "#7e828a"
   },
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
 }
