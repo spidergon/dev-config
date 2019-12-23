@@ -17,6 +17,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
   },
+  "editor.tabSize": 2,
   "explorer.confirmDragAndDrop": false,
   "breadcrumbs.enabled": false,
   // Emmet
