@@ -1,16 +1,8 @@
 set -gx fish_greeting ""
-#set -gx PATH $PATH ~/.yarn/bin
 
 # Metro virtual environment
 set -g theme_display_ruby no        # Disables displaying the current ruby version
 set -g theme_display_virtualenv no  # Disables displaying the current virtualenv name
-
-# Bootstrap fisher
-if not functions -q fisher
-  set -q XDG_CONFIG_HOME; or set XDG_CONFIG_HOME ~/.config
-  curl https://git.io/fisher --create-dirs -sLo $XDG_CONFIG_HOME/fish/functions/fisher.fish
-  fish -c fisher
-end
 
 # Abbreviations
 if status --is-interactive
@@ -39,3 +31,6 @@ if status --is-interactive
   abbr -a yt 'yarn test'
   abbr -a yup 'yarn upgrade-interactive'
 end
+
+# Launch starship
+starship init fish | source
