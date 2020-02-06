@@ -25,11 +25,11 @@
 ### Installation des outils
 
 ```bash
-yarn add -D @babel/core jest babel-jest babel-preset-gatsby @testing-library/react-hooks identity-obj-proxy
+yarn add -D @babel/core jest babel-preset-gatsby @testing-library/react-hooks identity-obj-proxy react-test-renderer sinon
 ```
 
 ```bash
-yarn add -D chai chai-enzyme@beta chai-jest-diff chai-jest-snapshot dirty-chai enzyme enzyme-adapter-react-16 enzyme-to-json react-test-renderer sinon sinon-chai
+yarn add babel-jest chai dirty-chai chai-jest-diff chai-enzyme@beta chai-jest-snapshot enzyme enzyme-adapter-react-16 enzyme-to-json sinon-chai
 ```
 
 ### Avec Gatsby
