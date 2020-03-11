@@ -3,7 +3,7 @@
 ## Dev dependencies
 
 ```bash
-yarn add --dev babel-eslint eslint eslint-config-alloy eslint-plugin-babel eslint-plugin-html eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks
+yarn add --dev babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-html eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier
 ```
 
 ## My React eslint conf
