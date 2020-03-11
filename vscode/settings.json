@@ -9,21 +9,21 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.renderWhitespace": "none",
   "editor.wordWrap": "on",
-  "editor.rulers": [ 120 ],
+  "editor.rulers": [120],
   "editor.snippetSuggestions": "top",
   "editor.minimap.enabled": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  // tell the ESLint plugin to run on save
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
-  },
   // turn it off for JS and JSX, we will do this via eslint
   "[javascript]": {
     "editor.formatOnSave": false
   },
   "[javascriptreact]": {
     "editor.formatOnSave": false
+  },
+  // tell the ESLint plugin to run on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
   },
   // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
   "prettier.disableLanguages": ["javascript", "javascriptreact"],
@@ -32,7 +32,7 @@
   "breadcrumbs.enabled": false,
   // Emmet
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
+    "javascript": "javascriptreact"
   },
   // ESLint
   "eslint.alwaysShowStatus": true,
@@ -58,5 +58,5 @@
   "workbench.colorCustomizations": {
     "editorIndentGuide.activeBackground": "#7e828a"
   },
-  "workbench.startupEditor": "newUntitledFile",
+  "workbench.startupEditor": "newUntitledFile"
 }

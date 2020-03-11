@@ -16,6 +16,7 @@ if status --is-interactive
   abbr -a gpom 'git push -u origin master'
   abbr -a gr 'git remote'
   abbr -a gt 'git status'
+  abbr -a hk 'heroku'
   abbr -a nfc 'netlify function:create'
   abbr -a nd 'netlify dev'
   abbr -a ntlp 'ntl deploy --prod'
