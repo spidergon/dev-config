@@ -1,12 +1,16 @@
 # Eslint setup
 
-## Dev dependencies
+## Simple
+
+```bash
+yarn add -D eslint babel-eslint eslint-config-alloy eslint-plugin-html eslint-config-prettier prettier
+```
+
+## With React
 
 ```bash
 yarn add --dev babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-html eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier
 ```
-
-## My React eslint conf
 
 [.eslintrc.json](https://github.com/spidergon/dev-config/blob/master/eslint/.eslintrc.json)
 
