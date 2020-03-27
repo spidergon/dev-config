@@ -6,7 +6,7 @@
 yarn add -D eslint babel-eslint eslint-config-alloy eslint-plugin-html eslint-plugin-prettier prettier
 ```
 
-[.eslintrc.json](https://github.com/spidergon/dev-config/blob/master/eslint/simple/.eslintrc.json)
+[.eslintrc.json](https://github.com/spidergon/dev-config/blob/master/eslint_prettier/simple/.eslintrc.js)
 
 ## With React
 
@@ -14,4 +14,4 @@ yarn add -D eslint babel-eslint eslint-config-alloy eslint-plugin-html eslint-pl
 yarn add -D eslint babel-eslint eslint-config-alloy eslint-plugin-html eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier
 ```
 
-[.eslintrc.json](https://github.com/spidergon/dev-config/blob/master/eslint/react/.eslintrc.json)
+[.eslintrc.json](https://github.com/spidergon/dev-config/blob/master/eslint_prettier/react/.eslintrc.js)
