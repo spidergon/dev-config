@@ -42,13 +42,14 @@
   // PHP
   "php.suggest.basic": false,
   // Prettier
-  "prettier.disableLanguages": [],
+  "prettier.printWidth": 120,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  // Vetur
+  "vetur.format.defaultFormatter.html": "none",
   // vsintellicode
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  // Turn off Vetur’s linting feature. We’ll be relying instead on ESLint + Prettier
-  // "vetur.format.enable": false,
-  "vetur.validation.template": false,
   // Window
   "window.menuBarVisibility": "toggle",
   "window.titleBarStyle": "custom",
