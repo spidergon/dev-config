@@ -1,13 +1,13 @@
 // Placez vos combinaisons de touches dans ce fichier pour remplacer les valeurs par défaut
 [
-    {
-        "key": "shift+alt+J",
-        "command": "editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+alt+K",
-        "command": "editor.action.copyLinesUpAction",
-        "when": "editorTextFocus && !editorReadonly"
-    }
+  {
+    "key": "shift+alt+J",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+K",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  }
 ]
