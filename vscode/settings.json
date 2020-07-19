@@ -29,9 +29,12 @@
   "explorer.confirmDragAndDrop": false,
   "breadcrumbs.enabled": false,
   // Emmet
-  // "emmet.includeLanguages": {
-  //   "javascript": "javascriptreact"
-  // },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
   // ESLint
   "eslint.alwaysShowStatus": true,
   // "eslint.validate": ["javascript", "javascriptreact", "vue", "typescript", "typescriptreact"],
@@ -65,5 +68,6 @@
   "workbench.colorCustomizations": {
     "editorIndentGuide.activeBackground": "#7e828a"
   },
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
+  "liveServer.settings.donotShowInfoMsg": true
 }

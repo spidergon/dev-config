@@ -26,9 +26,7 @@
       "import React, { useState, useEffect } from 'react'",
       "import PropTypes from 'prop-types'",
       "",
-      "function ${1:Name} () {$2}",
-      "",
-      "export default ${1:Name}",
+      "export default function ${1:Name}() {$2}",
       ""
     ],
     "description": "Create React Hooks Function Component"
@@ -47,6 +45,11 @@
     "prefix": "ust",
     "body": "const [${1}, set${1/(.)/${1:/upcase}/}] = useState($3)",
     "description": "React Hook useState"
+  },
+  "React Hook useEffect": {
+    "prefix": "use",
+    "body": "useEffect(() => {${2}}, [${1}])",
+    "description": "React Hook useEffect"
   },
   "Jest Globals - Describe": {
     "prefix": "desc",

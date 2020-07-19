@@ -30,7 +30,7 @@ if status --is-interactive
   abbr -a vup 'vagrant box update; and vagrant destroy -f; and vagrant up'
   abbr -a yard 'yarn add -D'
   abbr -a yb 'yarn build'
-  abbr -a ys 'yarn start'
+  abbr -a yd 'yarn dev'
   abbr -a yt 'yarn test'
   abbr -a ybs 'yarn build; and yarn serve'
   abbr -a yup 'yarn upgrade-interactive --latest'
