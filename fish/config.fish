@@ -26,6 +26,7 @@ if status --is-interactive
   abbr -a path 'printf "%s\n" $PATH'
   abbr -a rmn 'rm -rf node_modules; and rm package-lock.json'
   abbr -a tunnel 'ngrok http -host-header=rewrite dev.local:80'
+  abbr -a v 'vagrant'
   abbr -a vrem 'vagrant box remove ubuntu/bionic64 --box-version'
   abbr -a vup 'vagrant box update; and vagrant destroy -f; and vagrant up'
   abbr -a yard 'yarn add -D'

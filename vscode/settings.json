@@ -42,6 +42,7 @@
   "files.trimTrailingWhitespace": true,
   // PHP
   "php.suggest.basic": false,
+  "php.validate.executablePath": "/opt/Local/resources/extraResources/lightning-services/php-7.3.5+6/bin/linux/bin/php",
   // Prettier
   // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
   // "prettier.disableLanguages": ["javascript", "javascriptreact"],
@@ -50,8 +51,8 @@
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "none",
-  // Vetur
-  "vetur.format.defaultFormatter.html": "none",
+  // Tailwind
+  "tailwindCSS.emmetCompletions": true,
   // vsintellicode
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",

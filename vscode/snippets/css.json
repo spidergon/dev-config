@@ -3,5 +3,10 @@
     "prefix": ":tp",
     "body": "${props => props.theme.$1}",
     "description": "Theme Props in styled components"
+  },
+  "Comment": {
+    "prefix": "cl",
+    "body": "/*===== $1 =====*/",
+    "description": "Comment description line"
   }
 }
