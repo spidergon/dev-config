@@ -6,11 +6,13 @@
   },
   "Todo": {
     "prefix": "todo",
-    "body": ["$LINE_COMMENT TODO $CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR: "]
+    "body": [
+      "$LINE_COMMENT TODO $CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR: "
+    ]
   },
   "Module Import": {
     "prefix": "imp",
-    "body": "import $1 from '$2'",
+    "body": "import $1 from '$2';",
     "description": "Module Import"
   },
   "Arrow Function": {
@@ -21,8 +23,8 @@
   "React Component": {
     "prefix": "rcf",
     "body": [
-      "import React, { useState, useEffect } from 'react'",
-      "import PropTypes from 'prop-types'",
+      "import React from 'react';",
+      "import PropTypes from 'prop-types';",
       "",
       "export default function ${1:Name}() {$2}",
       ""
@@ -31,32 +33,32 @@
   },
   "React Module Import": {
     "prefix": "ru",
-    "body": "import React, { useState$1 } from 'react'",
+    "body": "import React, { useState$1 } from 'react';",
     "description": "React Module Import"
   },
   "React PropTypes": {
     "prefix": "pt",
-    "body": ["${1:Name}.propTypes = {", "\t${2:prop}: PropTypes$3", "}"],
+    "body": ["${1:Name}.propTypes = {", "\t${2:prop}: PropTypes$3", "};"],
     "description": "Declare React PropTypes"
   },
   "React Hook useState": {
     "prefix": "ust",
-    "body": "const [${1}, set${1/(.)/${1:/upcase}/}] = useState($3)",
+    "body": "const [${1}, set${1/(.)/${1:/upcase}/}] = useState($3);",
     "description": "React Hook useState"
   },
   "React Hook useEffect": {
     "prefix": "use",
-    "body": "useEffect(() => {${2}}, [${1}])",
+    "body": "useEffect(() => {${2}}, [${1}]);",
     "description": "React Hook useEffect"
   },
   "Jest Globals - Describe": {
     "prefix": "desc",
-    "body": "describe('${1:test suite description}', () => {$2})",
+    "body": "describe('${1:test suite description}', () => {$2});",
     "description": "Jest Global \"describe\" method"
   },
   "Jest Describe method - It": {
     "prefix": "it",
-    "body": "it('${1:test description}', ($2) => {$3})",
+    "body": "it('${1:test description}', ($2) => {$3});",
     "description": "Jest Global describe \"it\" method"
   }
 }
