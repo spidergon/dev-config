@@ -11,6 +11,7 @@
   "editor.wordWrap": "on",
   "editor.rulers": [120],
   "editor.snippetSuggestions": "top",
+  "editor.suggestSelection": "first", // vsintellicode
   "editor.minimap.enabled": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
@@ -54,8 +55,6 @@
   // "prettier.trailingComma": "none",
   // Tailwind
   "tailwindCSS.emmetCompletions": true,
-  // vsintellicode
-  "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   // Window
   "window.menuBarVisibility": "toggle",
@@ -71,5 +70,6 @@
     "editorIndentGuide.activeBackground": "#7e828a"
   },
   "workbench.startupEditor": "newUntitledFile",
-  "liveServer.settings.donotShowInfoMsg": true
+  "liveServer.settings.donotShowInfoMsg": true,
+  "telemetry.enableTelemetry": false
 }

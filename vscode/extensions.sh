@@ -1,6 +1,3 @@
-# To generate the list:
-# code --list-extensions | sed -e 's/^/code --install-extension /' > vscode_extensions.sh
-
 code --install-extension aaron-bond.better-comments
 code --install-extension blanu.vscode-styled-jsx
 code --install-extension bmewburn.vscode-intelephense-client
