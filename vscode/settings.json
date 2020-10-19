@@ -1,5 +1,4 @@
 {
-  // Editor
   "editor.fontFamily": "Fira Code Retina",
   "editor.fontLigatures": true,
   "editor.fontSize": 17,
@@ -13,54 +12,31 @@
   "editor.snippetSuggestions": "top",
   "editor.suggestSelection": "first", // vsintellicode
   "editor.minimap.enabled": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  // turn it off for JS and JSX, we will do this via eslint
-  "[javascript]": {
-    "editor.formatOnSave": false
-  },
-  "[javascriptreact]": {
-    "editor.formatOnSave": false
-  },
-  // tell the ESLint plugin to run on save
-  "editor.codeActionsOnSave": {
-    // "source.fixAll.eslint": true
-    "source.fixAll": true
-  },
   "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": ["javascript", "javascriptreact"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.alwaysShowStatus": true,
   "explorer.confirmDragAndDrop": false,
   "breadcrumbs.enabled": false,
-  // Emmet
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "vue-html": "html"
   },
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": true,
-  // ESLint
-  "eslint.alwaysShowStatus": true,
-  // "eslint.validate": ["javascript", "javascriptreact", "vue", "typescript", "typescriptreact"],
-  // Files
   "files.trimTrailingWhitespace": true,
-  // PHP
+  "files.eol": "\n",
   "php.suggest.basic": false,
   "php.validate.executablePath": "/opt/Local/resources/extraResources/lightning-services/php-7.3.5+6/bin/linux/bin/php",
-  // Prettier
-  // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
-  "prettier.disableLanguages": ["javascript", "javascriptreact"],
-  // "prettier.arrowParens": "avoid",
-  // "prettier.printWidth": 120,
-  // "prettier.semi": false,
-  // "prettier.singleQuote": true,
-  // "prettier.trailingComma": "none",
-  // Tailwind
   "tailwindCSS.emmetCompletions": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  // Window
   "window.menuBarVisibility": "toggle",
   "window.titleBarStyle": "custom",
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-  // Workbench
   "workbench.colorTheme": "Night Owl",
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.iconTheme": "material-icon-theme",

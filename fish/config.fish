@@ -9,8 +9,8 @@ if status --is-interactive
   abbr -a !! sudo
   abbr -a conf 'nano ~/.config/fish/config.fish'
   abbr -a g git
-  abbr -a gac 'git add .; and git commit -am'
-  abbr -a gc 'git commit -am'
+  abbr -a gac 'git add -A; and git commit -m'
+  abbr -a gc 'git commit -m'
   abbr -a gcm 'git checkout master'
   abbr -a gd 'git diff'
   abbr -a gpom 'git push -u origin master'
@@ -26,7 +26,7 @@ if status --is-interactive
   abbr -a path 'printf "%s\n" $PATH'
   abbr -a rmn 'rm -rf node_modules; and rm package-lock.json'
   abbr -a tunnel 'ngrok http -host-header=rewrite dev.local:80'
-  abbr -a v 'vagrant'
+  abbr -a v 'vercel'
   abbr -a vrem 'vagrant box remove ubuntu/bionic64 --box-version'
   abbr -a vup 'vagrant box update; and vagrant destroy -f; and vagrant up'
   abbr -a yard 'yarn add -D'
