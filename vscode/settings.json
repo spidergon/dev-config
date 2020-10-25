@@ -32,6 +32,8 @@
   "files.eol": "\n",
   //"php.suggest.basic": false,
   //"php.validate.executablePath": "/home/chris/Tools/phpDen/php",
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 120,
   "tailwindCSS.emmetCompletions": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.menuBarVisibility": "toggle",
