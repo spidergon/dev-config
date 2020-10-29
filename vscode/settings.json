@@ -24,7 +24,8 @@
   "breadcrumbs.enabled": false,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
-    "vue-html": "html"
+    "nunjucks": "html",
+    "liquid": "html"
   },
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": true,
