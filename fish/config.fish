@@ -11,9 +11,9 @@ if status --is-interactive
   abbr -a g git
   abbr -a gac 'git add -A; and git commit -m'
   abbr -a gc 'git commit -m'
-  abbr -a gcm 'git checkout master'
+  abbr -a gcm 'git checkout main'
   abbr -a gd 'git diff'
-  abbr -a gpom 'git push -u origin master'
+  abbr -a gpom 'git push -u origin main'
   abbr -a gr 'git remote'
   abbr -a gt 'git status'
   abbr -a hk 'heroku'
@@ -35,6 +35,7 @@ if status --is-interactive
   abbr -a yt 'yarn test'
   abbr -a ybs 'yarn build; and yarn serve'
   abbr -a yup 'yarn upgrade-interactive --latest'
+  abbr -a k:dev 'php -S localhost:8080 kirby/router.php'
 end
 
 # Launch starship

@@ -1,0 +1,7 @@
+{
+  "Kirby snippet": {
+    "prefix": "k:snippet",
+    "body": "<?php snippet('$1') ?>$2",
+    "description": "Insert a kirby snippet"
+  }
+}
