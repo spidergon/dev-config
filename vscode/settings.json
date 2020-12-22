@@ -14,7 +14,8 @@
   "editor.minimap.enabled": false,
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
-  "editor.renameOnType": true,
+  // "editor.renameOnType": true,
+  "editor.linkedEditing": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "eslint.validate": ["javascript", "javascriptreact"],
   "editor.codeActionsOnSave": {

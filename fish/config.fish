@@ -35,6 +35,9 @@ if status --is-interactive
   abbr -a yt 'yarn test'
   abbr -a ybs 'yarn build; and yarn serve'
   abbr -a yup 'yarn upgrade-interactive --latest'
+  abbr -a c 'composer'
+  abbr -a cr 'composer require'
+  abbr -a crw 'composer require wpackagist-plugin/'
   abbr -a k:dev 'php -S localhost:8080 kirby/router.php'
 end
 
