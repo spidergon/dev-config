@@ -1,4 +1,5 @@
 {
+  "breadcrumbs.enabled": false,
   "editor.fontFamily": "Fira Code Retina",
   "editor.fontLigatures": true,
   "editor.fontSize": 17,
@@ -8,7 +9,9 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.renderWhitespace": "none",
   "editor.wordWrap": "on",
-  "editor.rulers": [120],
+  "editor.rulers": [100],
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
   "editor.snippetSuggestions": "top",
   "editor.suggestSelection": "first", // vsintellicode
   "editor.minimap.enabled": false,
@@ -23,7 +26,6 @@
   },
   "eslint.alwaysShowStatus": true,
   "explorer.confirmDragAndDrop": false,
-  "breadcrumbs.enabled": false,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "nunjucks": "html"
@@ -31,12 +33,17 @@
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": true,
   "files.trimTrailingWhitespace": true,
-  "files.eol": "\n",
+  // "files.eol": "\n",
+  "javascript.updateImportsOnFileMove.enabled": "always",
   //"php.suggest.basic": false,
   //"php.validate.executablePath": "/home/chris/Tools/phpDen/php",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "prettier.printWidth": 100,
   "prettier.singleQuote": true,
-  "prettier.printWidth": 120,
-  "tailwindCSS.emmetCompletions": true,
+  "tabnine.experimentalAutoImports": true,
+  // "tailwindCSS.emmetCompletions": true,
+  "telemetry.telemetryLevel": "off",
+  // "thunder-client.codeSnippetLanguage": "js-fetch",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.menuBarVisibility": "toggle",
   "window.titleBarStyle": "custom",
@@ -50,6 +57,5 @@
     "editorIndentGuide.activeBackground": "#7e828a"
   },
   "workbench.startupEditor": "newUntitledFile",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "telemetry.enableTelemetry": false
+  "diffEditor.ignoreTrimWhitespace": false
 }

@@ -24,6 +24,11 @@ if status --is-interactive
   abbr -a ndx 'netlify dev:exec '
   abbr -a nup 'ncu --upgrade'
   abbr -a path 'printf "%s\n" $PATH'
+  abbr -a pd 'pnpm dev'
+  abbr -a pb 'pnpm build'
+  abbr -a pbp 'pnpm build; and pnpm preview'
+  abbr -a po 'pnpm outdated'
+  abbr -a pu 'pnpm update --latest'
   abbr -a rmn 'rm -rf node_modules; and rm package-lock.json'
   abbr -a tunnel 'ngrok http -host-header=rewrite dev.local:80'
   abbr -a v 'vercel'
@@ -43,3 +48,6 @@ end
 
 # Launch starship
 starship init fish | source
+
+set -gx PNPM_HOME "/home/chris/.local/share/pnpm"
+set -gx PATH "$PNPM_HOME" $PATH
