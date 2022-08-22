@@ -15,7 +15,7 @@ sudo sed -i "s+/home/chris:/bin/bash+/home/chris:/usr/bin/fish+" /etc/passwd
 ## Starship setup
 
 ```bash
-curl -fsSL https://starship.rs/install.sh | bash
+curl -fsSL https://starship.rs/install.sh | sh
 ```
 
 ```bash

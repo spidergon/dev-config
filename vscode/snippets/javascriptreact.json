@@ -1,0 +1,54 @@
+{
+  "Console Log": {
+    "prefix": "cl",
+    "body": "console.log($1)",
+    "description": "Log output to console"
+  },
+  "Todo": {
+    "prefix": "todo",
+    "body": [
+      "$LINE_COMMENT TODO $CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR: "
+    ]
+  },
+  "Module Import": {
+    "prefix": "imp",
+    "body": "import $1 from '$2';",
+    "description": "Module Import"
+  },
+  "Arrow Function": {
+    "prefix": "fn",
+    "body": "($1) => {$2}",
+    "description": "Arrow Function"
+  },
+  "React Component": {
+    "prefix": "rcf",
+    "body": [
+      "import React from 'react';",
+      "import PropTypes from 'prop-types';",
+      "",
+      "export default function ${1:Name}() {$2}",
+      ""
+    ],
+    "description": "Create React Hooks Function Component"
+  },
+  "React Module Import": {
+    "prefix": "ru",
+    "body": "import React, { useState$1 } from 'react';",
+    "description": "React Module Import"
+  },
+  "React PropTypes": {
+    "prefix": "pt",
+    "body": ["${1:Name}.propTypes = {", "\t${2:prop}: PropTypes$3", "};"],
+    "description": "Declare React PropTypes"
+  },
+  "React Hook useState": {
+    "prefix": "ust",
+    "body": "const [${1}, set${1/(.)/${1:/upcase}/}] = useState($3);",
+    "description": "React Hook useState"
+  },
+  "React Hook useEffect": {
+    "prefix": "use",
+    "body": "useEffect(() => {${2}}, [${1}]);",
+    "description": "React Hook useEffect"
+  }
+}
