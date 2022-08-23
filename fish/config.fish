@@ -20,7 +20,18 @@ if status is-interactive
   abbr -a k:dev 'php -S localhost:8080 kirby/router.php'
 end
 
+
 set -gx fish_greeting ""
+
+# n
+set -x N_PREFIX "$HOME/n"; contains "$N_PREFIX/bin" $PATH; or set -a PATH "$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
+# n end
+
+# pnpm
+set -gx PNPM_HOME "/home/chris/.local/share/pnpm"
+set -gx PATH "$PNPM_HOME" $PATH
+alias pn=pnpm
+# pnpm end
 
 # Launch starship
 starship init fish | source

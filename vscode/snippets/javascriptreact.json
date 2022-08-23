@@ -6,9 +6,7 @@
   },
   "Todo": {
     "prefix": "todo",
-    "body": [
-      "$LINE_COMMENT TODO $CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR: "
-    ]
+    "body": ["$LINE_COMMENT TODO $CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR: "]
   },
   "Module Import": {
     "prefix": "imp",
