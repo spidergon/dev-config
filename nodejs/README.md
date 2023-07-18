@@ -21,7 +21,9 @@ set -x N_PREFIX "$HOME/n"; contains "$N_PREFIX/bin" $PATH; or set -a PATH "$N_PR
 
 # pnpm
 set -gx PNPM_HOME "/home/chris/.local/share/pnpm"
-set -gx PATH "$PNPM_HOME" $PATH
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
 alias pn=pnpm
 # pnpm end
 ```
@@ -29,4 +31,4 @@ alias pn=pnpm
 ## Resources :
 
 - [n-install](https://github.com/mklement0/n-install)
-- [pnpm](https://pnpm.ml/installation)
+- [pnpm](https://pnpm.io/installation)

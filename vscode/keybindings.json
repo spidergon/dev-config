@@ -1,21 +1,48 @@
 // Placez vos combinaisons de touches dans ce fichier pour remplacer les valeurs par défaut
 [
   {
-    "key": "shift+alt+J",
+    "key": "shift+alt+j",
     "command": "editor.action.copyLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "shift+alt+K",
+    "key": "shift+alt+k",
     "command": "editor.action.copyLinesUpAction",
     "when": "editorTextFocus && !editorReadonly"
   },
-  {
-    "key": "ctrl+shift+alt+t",
-    "command": "workbench.action.terminal.focus"
-  },
+  /*{
+    "key": "ctrl+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },*/
   {
     "key": "ctrl+e",
-    "command": "editor.emmet.action.expandAbbreviation"
+    // "command": "editor.emmet.action.expandAbbreviation"
+    "command": "workbench.action.showAllEditorsByMostRecentlyUsed"
+  },
+  {
+    "key": "alt+1",
+    "command": "multiCommand.makeRoom"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "revealFileInOS"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "workbench.action.gotoSymbol"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile"
   }
 ]
