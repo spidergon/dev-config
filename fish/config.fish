@@ -39,13 +39,15 @@ set -gx PNPM_HOME "/home/chris/.local/share/pnpm"
 if not string match -q -- $PNPM_HOME $PATH
   set -gx PATH "$PNPM_HOME" $PATH
 end
-alias pn=pnpm
 # pnpm end
 
 # java
 set -gx JAVA_HOME "/home/chris/Tools/Java/JDK/java/bin"
 set -gx PATH "$JAVA_HOME" $PATH
 # java end
+
+# alias
+alias pn=pnpm
 
 # Launch starship
 starship init fish | source
