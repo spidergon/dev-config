@@ -42,9 +42,16 @@ end
 # pnpm end
 
 # java
-set -gx JAVA_HOME "/home/chris/Tools/Java/JDK/java/bin"
-set -gx PATH "$JAVA_HOME" $PATH
+#set -gx JAVA_HOME "/home/chris/Tools/Java/JDK/java/bin"
+#set -gx PATH "$JAVA_HOME" $PATH
 # java end
+
+# ansible
+set -gx ANSIBLE_HOME "/home/chris/.local/bin"
+if not string match -q -- $ANSIBLE_HOME $PATH
+  set -gx PATH "$ANSIBLE_HOME" $PATH
+end
+# ansible end
 
 # alias
 alias pn=pnpm

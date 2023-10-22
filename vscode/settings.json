@@ -46,12 +46,24 @@
     }
   ],
   // "breadcrumbs.enabled": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.printWidth": 100,
   "prettier.singleQuote": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   // "prettier.documentSelectors": ["**/*.astro"],
+  // "[astro]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[astro]": {
+  //   "editor.defaultFormatter": "astro-build.astro-vscode"
+  // },
   // "javascript.preferences.importModuleSpecifierEnding": "js",
   // "typescript.preferences.importModuleSpecifierEnding": "js",
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[javascriptreact]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
@@ -60,12 +72,14 @@
     "editor.autoClosingBrackets": "always"
   },
   "git.autofetch": true,
-  "[python]": {
-    "editor.formatOnType": true,
-    "editor.defaultFormatter": "ms-python.python"
-  },
+  // "[python]": {
+  //   "editor.formatOnType": true,
+  //   "editor.defaultFormatter": "ms-python.python"
+  // },
   "liveServer.settings.donotShowInfoMsg": true,
-  "hediet.vscode-drawio.resizeImages": null
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  }
 
   // "editor.cursorSmoothCaretAnimation": "on",
   // "editor.rulers": [100],
