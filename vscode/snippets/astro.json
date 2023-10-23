@@ -1,0 +1,16 @@
+{
+  "Console Log": {
+    "prefix": "cl",
+    "body": "console.log($1)",
+    "description": "Log output to console"
+  },
+  "Todo": {
+    "prefix": "todo",
+    "body": ["$LINE_COMMENT TODO $CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR: "]
+  },
+  "Module Import": {
+    "prefix": "imp",
+    "body": "import $1 from '$2';",
+    "description": "Module Import"
+  }
+}
