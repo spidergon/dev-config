@@ -1,0 +1,44 @@
+{
+  // GLOBAL snippets here
+  "Todo": {
+    "prefix": "todo",
+    "body": ["$LINE_COMMENT TODO, $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE: "],
+    "description": "Todo with date"
+  },
+  "Print to console": {
+    "scope": "astro,javascript,javascriptreact,typescript",
+    "prefix": "cl",
+    "body": "console.log($1);$2",
+    "description": "Log output to console"
+  },
+  "Module Import": {
+    "scope": "astro,javascript,javascriptreact,typescript",
+    "prefix": "imp",
+    "body": "import $1 from '$2';",
+    "description": "Module Import"
+  },
+  "Arrow Function": {
+    "scope": "astro,javascript,javascriptreact,typescript",
+    "prefix": "fn",
+    "body": "($1) => {$2}",
+    "description": "Arrow Function"
+  },
+  "Export default function": {
+    "scope": "javascript,javascriptreact,typescript",
+    "prefix": "edf",
+    "body": "export default function ${1:Name}() {$2}",
+    "description": "Export default function"
+  },
+  "React Hook useState": {
+    "scope": "javascriptreact",
+    "prefix": "ust",
+    "body": "const [${1}, set${1/(.)/${1:/upcase}/}] = useState($2);",
+    "description": "React Hook useState"
+  },
+  "React Hook useEffect": {
+    "scope": "javascriptreact",
+    "prefix": "use",
+    "body": "useEffect(() => {$2}, [$1]);",
+    "description": "React Hook useEffect"
+  }
+}

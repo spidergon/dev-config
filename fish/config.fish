@@ -6,6 +6,7 @@ if status is-interactive
   abbr -a lstart 'sudo /opt/lampp/lampp start'
   abbr -a lstop 'sudo /opt/lampp/lampp stop'
   abbr -a lrestart 'sudo /opt/lampp/lampp restart'
+  abbr -a lstatus 'sudo /opt/lampp/lampp status'
   abbr -a g git
   abbr -a gac 'git add -A; and git commit -m'
   abbr -a gc 'git commit -m'
@@ -30,8 +31,12 @@ end
 
 set -gx fish_greeting ""
 
+# nvm
+set --universal nvm_default_version lts
+# nvm end
+
 # n
-set -x N_PREFIX "$HOME/n"; contains "$N_PREFIX/bin" $PATH; or set -a PATH "$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
+#set -x N_PREFIX "$HOME/n"; contains "$N_PREFIX/bin" $PATH; or set -a PATH "$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
 # n end
 
 # pnpm
@@ -47,10 +52,10 @@ end
 # java end
 
 # ansible
-set -gx ANSIBLE_HOME "/home/chris/.local/bin"
-if not string match -q -- $ANSIBLE_HOME $PATH
-  set -gx PATH "$ANSIBLE_HOME" $PATH
-end
+#set -gx ANSIBLE_HOME "/home/chris/.local/bin"
+#if not string match -q -- $ANSIBLE_HOME $PATH
+#  set -gx PATH "$ANSIBLE_HOME" $PATH
+#end
 # ansible end
 
 # alias
