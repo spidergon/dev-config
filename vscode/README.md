@@ -3,6 +3,10 @@
 - [Install Fira Code](https://medium.com/@qjli/daily-dev-tips-96-visual-studio-code-how-to-enable-this-new-sexy-fira-code-font-89bafbfa245f)
 - [Wiki](https://github.com/tonsky/FiraCode/wiki)
 
+```sh
+sudo apt install fonts-firacode
+```
+
 ## Extensions
 
 _**Note:** [Unix-like systems](https://en.wikipedia.org/wiki/Operating_system#Unix_and_Unix-like_operating_systems) only._

@@ -31,11 +31,12 @@
   //     "editor.selectionHighlightBackground": "#3D59A1"
   //   }
   // },
+  "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
-  "gitlens.currentLine.enabled": false,
-  "gitlens.codeLens.enabled": false,
-  "gitlens.hovers.currentLine.over": "line",
+  // "gitlens.currentLine.enabled": false,
+  // "gitlens.codeLens.enabled": false,
+  // "gitlens.hovers.currentLine.over": "line",
   "multiCommand.commands": [
     {
       "command": "multiCommand.makeRoom",
@@ -67,11 +68,11 @@
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
-  "blade.format.enable": true, // if you would like to enable blade format
-  "[blade]": {
-    "editor.autoClosingBrackets": "always"
-  },
-  "git.autofetch": true,
+  // "blade.format.enable": true, // if you would like to enable blade format
+  // "[blade]": {
+  //   "editor.autoClosingBrackets": "always"
+  // },
+
   // "[python]": {
   //   "editor.formatOnType": true,
   //   "editor.defaultFormatter": "ms-python.python"
