@@ -2,6 +2,7 @@ if status is-interactive
   # Commands to run in interactive sessions can go here
   abbr -a !! sudo
   abbr -a conf 'nano ~/.config/fish/config.fish'
+  abbr -a d 'docker'
   abbr -a ll 'ls -lrtha'
   abbr -a lstart 'sudo /opt/lampp/lampp start'
   abbr -a lstop 'sudo /opt/lampp/lampp stop'
@@ -20,6 +21,7 @@ if status is-interactive
   abbr -a pas 'php artisan serve'
   abbr -a pp 'pnpm dev'
   abbr -a pb 'pnpm build'
+  abbr -a pns 'pnpm start'
   abbr -a ppp 'pnpm build; and pnpm preview'
   abbr -a po 'pnpm outdated'
   abbr -a pu 'pnpm update --latest'
